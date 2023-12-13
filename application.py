@@ -21,10 +21,6 @@ def name_function():
                         "text": "안녕하세요. 테스트 코드입니다. 😊"
                     }
                     
-                    # "simpleImage": {
-                    #     "imageUrl": "http://k.kakaocdn.net/dn/jur1c/btrN5wwGslk/RU9W2xYA4RiRfnafDmkbh1/resize.jpg",
-                    #     "altText": "봉추찜닭입니다"
-                    # }
                 }
             ]
         }
