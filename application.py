@@ -10,7 +10,8 @@ def image():
         "outputs": [
             {
                 "simpleImage": {
-                    "imageUrl": "https://i.ibb.co/M658vfX/image.png",
+                    #"imageUrl": "https://i.ibb.co/M658vfX/image.png",
+                    "imageUrl": "'https://ifh.cc/g/qfnqXS.png",
                     "altText": "통학 셔틀 버스 시간표를 알려줍니다"
                 }
             }
