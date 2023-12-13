@@ -11,7 +11,7 @@ def school_4():
     "outputs": [
       {
         "textCard": {
-          "title": "🚌 8202 (동탄) 버스의 정보를 알려드립니다.🚌",
+          "title": "🚌 4401 (양재) 버스의 정보를 알려드립니다.🚌",
           "buttons": [
             {
               "action": "block",
@@ -26,7 +26,7 @@ def school_4():
             {
               "action": "block",
               "label": "금액"
-              "blockId": "65799fcbfd07443c623ecb4e",  
+              "blockId": "6579daf265f62e039fa31554",  
             }
           ]
         }

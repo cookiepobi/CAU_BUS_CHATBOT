@@ -3,15 +3,15 @@ import sys
 
 app = Flask(__name__)
 
-@app.route('/school_4', methods=['POST'])
-def school_4():
+@app.route('/school_2', methods=['POST'])
+def school_2():
     response = {
   "version": "2.0",
   "template": {
     "outputs": [
       {
         "textCard": {
-          "title": "🚌 8202 (동탄) 버스의 정보를 알려드립니다.🚌",
+          "title": "🚌 8201 (성남) 버스의 정보를 알려드립니다.🚌",
           "buttons": [
             {
               "action": "block",
@@ -22,4 +22,22 @@ def school_4():
               "action": "block",
               "label": "시간표"
               "blockId": "65799fcbfd07443c623ecb4e", 
+            },
+            {
+              "action": "block",
+              "label": "금액"
+              "blockId": "6579daf265f62e039fa31554",  
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+
+    return jsonify(response)
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=int(sys.argv[1]), debug=True)
+
 

@@ -3,8 +3,8 @@ import sys
 
 app = Flask(__name__)
 
-@app.route('/school_4', methods=['POST'])
-def school_4():
+@app.route('/school_3', methods=['POST'])
+def school_3():
     response = {
   "version": "2.0",
   "template": {
@@ -26,7 +26,7 @@ def school_4():
             {
               "action": "block",
               "label": "금액"
-              "blockId": "65799fcbfd07443c623ecb4e",  
+              "blockId": "6579daf265f62e039fa31554",  
             }
           ]
         }

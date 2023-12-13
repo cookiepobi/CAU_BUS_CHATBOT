@@ -26,7 +26,7 @@ def school_4():
             {
               "action": "block",
               "label": "금액"
-              "blockId": "65799fcbfd07443c623ecb4e",  
+              "blockId": "6579d7556286e53ab4497776",  
             }
           ]
         }
