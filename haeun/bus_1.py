@@ -3,15 +3,15 @@ import sys
 
 app = Flask(__name__)
 
-@app.route('/school_4', methods=['POST'])
-def school_4():
+@app.route('/school_1', methods=['POST'])
+def school_1():
     response = {
   "version": "2.0",
   "template": {
     "outputs": [
       {
         "textCard": {
-          "title": "🚌 8202 (동탄) 버스의 정보를 알려드립니다.🚌",
+          "title": "🚌 8200 (수원) 버스의 정보를 알려드립니다.🚌",
           "buttons": [
             {
               "action": "block",
